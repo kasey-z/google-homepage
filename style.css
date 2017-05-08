@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html,body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div{position: relative;}
+
+body{
+	height: 100%;
+}
+
+.logo{
+background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+width: 280px;
+height: 100px;
+background-repeat: no-repeat;
+background-size: contain;
+margin: auto;
+position: relative;
+top: 200px;
+}
+
+.logo-words {
+  color: #1E90FF;
+  position: absolute;
+bottom: 5px;
+right: 25px;
+}
+
+.search-form{
+  margin: auto;
+  width:560px;
+  height:40px;
+  top: 220px;
+  position: relative;
+  border-radius:3px;
+}
+
+#search-form{
+  font-size: 30px;
+  size:130%;
+  width:560px;
+}
+
+input#shouqibucuo,input#sousuo {
+padding: 5px 15px;
+color:grey;
+font-weight: bolder;
+border-style: outset;
+}
+
+.sousuo {
+  position: absolute;
+  left: 175px;
+  text-align: center;
+	height: auto;
+	bottom: -55px;
+}
+
+.shouqibucuo{
+  position: absolute;
+  right: 175px;
+  text-align: center;
+	height: auto;
+	bottom: -55px;
+	word-spacing: 5px;
+}
+
+input#shouqibucuo:hover,input#sousuo:hover{
+	color: black;
+}
+
+.language{
+  text-align: center;
+  top: 300px;
+  position: relative;
+  font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li#gmail, li#photo, li#manu{
+	padding: 10px;
+	display: block;
+	font-family: arial;
+	padding: 8px;
+	text-align: center;
+	float: left;
+}
+
+ul.top-bar{
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	padding-right: 10px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+img{
+	width: 17px;
+	opacity: 0.6;
+}
+
+img:hover{
+	opacity: 1.0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.foot{
+	position: relative;
+	bottom: -550px;
+	font-size: 14px;
+	font-weight: 200;
+	background-color:#efefed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+#guanggao,#shangwu,#daquan{
+	float: left;
+  padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+
+#siyinquan,#tiaokuan,#shezhi {
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
